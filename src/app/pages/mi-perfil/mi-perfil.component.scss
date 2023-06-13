@@ -1,0 +1,33 @@
+.tamano-foto{
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.margen{
+    margin-left: 10rem;
+}
+
+@media (max-width: 992px) {
+    .margen{
+        margin-left: 0rem;
+    }
+}
+
+.quitarSalto{
+    display:inline;
+}
+
+.margenLetras{
+    margin-left: 2px;
+}
+
+.tamaño-fotos{
+    width: 30vh;
+    height: 30vh;
+}
+
+.campo{
+    text-shadow: 2px 2px 2px #cccccc;
+}

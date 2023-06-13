@@ -1,0 +1,20 @@
+[
+    {
+        "idRutina": "1",
+        "tituloRutina": "Rutina en gimnasio",
+        "ejercicios" : ["0","1","2","3","4","5"],
+        "foto": "../../../assets/img/gymBackground.png"
+      },
+      {
+        "idRutina": "2",
+        "tituloRutina": "Rutina en casa",
+        "ejercicios" : ["3","4","5","0","1","2"],
+        "foto": "../../../assets/img/pushup.jpg"
+      },
+      {
+        "idRutina": "3",
+        "tituloRutina": "Borrador",
+        "ejercicios" : ["7"],
+        "foto": "../../../assets/img/borrador.png"
+      }
+]

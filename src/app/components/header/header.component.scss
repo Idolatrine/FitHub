@@ -1,0 +1,70 @@
+.carta{
+    border-radius: 7px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 300ms;
+  }
+  .carta:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .carta img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .carta a h5 {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: all ease 700ms;
+    color: rgba(255,255,255,0); 
+  }
+  .carta:hover a h5 {
+    color: #f6f6f6;
+    margin-bottom: 60px;
+  }
+
+  .rounded-pill{
+    background-color: hsla(0, 3%, 33%, 0.737);
+    border: 3px solid #171717;
+    outline: none;
+    padding: 10px;
+    color: white;
+  }
+
+  ::placeholder{
+    color: #dddddd;
+    font-size: large;
+    
+  }
+
+  .animated-line {
+    color: #ff0468;
+    margin: 10px 30px;
+    font-size: 2rem;
+    background-image: linear-gradient(90deg, #dddddd,#dddddd,#dddddd);
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    background-position: left bottom;
+    transition: background-size 200ms ease-in-out; 
+}
+
+.animated-line:hover {
+    background-size: 100% 2px;
+}
+
+h1.animated-line {
+    display: inline;
+}
+
+.logo{
+    margin-left: 50px;
+}
+

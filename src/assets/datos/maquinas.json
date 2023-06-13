@@ -1,0 +1,17 @@
+[
+    {
+        "idMaquina": "0",
+        "tituloMaquina": "Rutina en gimnasio",        
+        "foto": "../../../assets/img/gymBackground.png"
+      },
+      {
+        "idMaquina": "1",
+        "tituloMaquina": "Rutina en casa",
+        "foto": "../../../assets/img/pushup.jpg"
+      },
+      {
+        "idMaquina": "2",
+        "tituloMaquina": "Borrador",
+        "foto": "../../../assets/img/borrador.png"
+      }
+]

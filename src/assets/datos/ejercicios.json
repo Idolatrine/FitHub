@@ -1,0 +1,89 @@
+[
+    {
+      "id": "0",
+      "tituloEjercicio": "Press de banca",
+      "tituloFoto": "Press de banca",
+      "foto": "../../../assets/img/press-banca-1.jpg",
+      "descripcion": "El press de banca es un ejercicio clásico de levantamiento de pesas que se realiza acostado en un banco plano. Consiste en levantar una barra con pesos desde el pecho hasta la extensión completa de los brazos. Se enfoca principalmente en los músculos del pecho, los hombros y los tríceps. Es importante mantener una postura estable y controlada, manteniendo los pies apoyados en el suelo, los glúteos y la espalda baja en contacto con el banco. El press de banca es muy efectivo para fortalecer el pecho y los músculos superiores del cuerpo, mejorar la fuerza y la estética muscular.",
+      "descripcionMusculos": ["Músculos agonistas: pectoral mayor y pectoral menor.","Músculos sinergistas: deltoides anterior y tríceps.", "Músculos antagonistas: deltoides posterior, dorsal y bíceps"],
+      "video": "https://www.youtube.com/embed/GeLq8cMODLc"
+    },
+    {
+      "id": "1",
+      "tituloEjercicio": "Sentadilla con barra",
+      "tituloFoto": "Sentadilla con barra",
+      "foto": "../../../assets/img/sentadilla.jpeg",
+      "descripcion": "La sentadilla con barra es un ejercicio fundamental de fuerza y desarrollo muscular que involucra principalmente los músculos de las piernas y glúteos. Consiste en colocar una barra cargada en la parte superior de la espalda y bajar el cuerpo flexionando las rodillas y caderas hasta que los muslos estén paralelos al suelo, manteniendo la espalda recta. Luego, se retorna a la posición inicial al extender las piernas. La sentadilla con barra es ampliamente utilizada en entrenamientos de fuerza, acondicionamiento físico y deportes, ya que fortalece la parte inferior del cuerpo y promueve el desarrollo de la musculatura de las piernas.",
+      "descripcionMusculos": ["Glúteo mayor.","cuádriceps e isquiotibiales."],
+      "video": "https://www.youtube.com/embed/YOPq7v0mcuI"
+    },
+    {
+      "id": "2",
+      "tituloEjercicio": "Remo con barra",
+      "tituloFoto": "Remo con barra",
+      "foto": "../../../assets/img/remo.jpeg",
+      "descripcion": "El remo con barra es un ejercicio que se realiza con una barra y se enfoca principalmente en los músculos de la espalda, los hombros y los brazos. Para hacerlo, se comienza con la barra en frente del cuerpo, con las manos agarrándola a una distancia ligeramente mayor que el ancho de los hombros. Desde esta posición, se tira de la barra hacia el abdomen manteniendo los codos cerca del cuerpo y contrayendo los músculos de la espalda. Luego, se baja la barra lentamente hasta volver a la posición inicial. Este ejercicio ayuda a fortalecer la espalda, mejorar la postura y la estabilidad de los hombros, y también puede beneficiar el desarrollo de los músculos de los brazos. Es fundamental mantener una técnica adecuada y evitar cargar demasiado peso para prevenir lesiones.",
+      "descripcionMusculos": ["Musculatura de la espalda.","Bíceps braquiales.","Braquiorradial.","Trapecios.","Deltoides posterior.","Redondo mayor y Redondo menor.","Dorsal ancho.","Zona externa del pectoral superior.","Romboide.","Infraespinoso.","Erector de la espina dorsal.","Aductores.","Isquiotibiales.","Abdominales oblicuos y Abdominales frontales."],
+      "video": "https://www.youtube.com/embed/3uiWjik2yEQ"
+    },
+    {
+      "id": "3",
+      "tituloEjercicio": "Hip Thrust",
+      "tituloFoto": "Hip Thrust",
+      "foto": "../../../assets/img/hip-thrust.jpg",
+      "descripcion": "El Hip Thrust es un ejercicio enfocado en los glúteos y los músculos de la cadera. Se realiza acostado en el suelo con los hombros apoyados en un banco o step y las piernas flexionadas. Desde esta posición, se levanta la cadera hacia arriba hasta formar una línea recta entre las rodillas y los hombros, contrayendo los glúteos al máximo. Luego, se baja la cadera lentamente y se repite el movimiento. El Hip Thrust es eficaz para fortalecer y tonificar los glúteos, mejorar la estabilidad de la cadera y la postura corporal.",
+      "tituloSegundo": "Musculos trabajados en Hip Thrust",
+      "descripcionMusculos": ["Los extensores primarios de la cadera (glúteo mayor, isquiotibiales y algunas fibras del aductor mayor).","Los extensores secundarios de la cadera (aductores y fibras posteriores del glúteo medio y glúteo menor).", "Los estabilizadores de la columna (erectores espinales).", "Los flexo-extensores de la rodilla (recto femoral y vastos)."],
+      "video": "https://www.youtube.com/embed/zIIl1CINi84"
+    },
+    {
+      "id": "4",
+      "tituloEjercicio": "Cruce con polea alta",
+      "tituloFoto": "Cruces con polea alta",
+      "foto": "../../../assets/img/cruces.jpg",
+      "descripcion": "Los cruces con polea alta son un ejercicio de entrenamiento de fuerza que se realiza utilizando una polea ajustada a una posición alta. Se comienza de pie, frente a la polea, y se agarra una empuñadura en cada mano. A continuación, se cruzan los brazos llevando las manos hacia abajo y hacia el frente, contrayendo los músculos del pecho. Luego, se regresa lentamente a la posición inicial manteniendo el control del movimiento. Los cruces con polea alta son efectivos para trabajar los músculos pectorales, particularmente el pectoral mayor, y también pueden involucrar los músculos de los hombros y los brazos. Se recomienda ajustar el peso adecuadamente y mantener una buena postura durante el ejercicio.",
+      "tituloSegundo": "Musculos trabajados en Cruces con polea alta",
+      "descripcionMusculos": ["Deltoides Anterior.","Pectoral Mayor (Superior).", "Pectoral Mayor (Inferior).", "Biceps Braquial."],
+      "video": "https://www.youtube.com/embed/3hBloob8efo"
+    },
+    {
+      "id": "5",
+      "tituloEjercicio": "Extensión de tríceps",
+      "tituloFoto": "Extensión de tríceps",
+      "foto": "../../../assets/img/ext.jpg",
+      "descripcion": "La extensión de tríceps es un ejercicio que se enfoca en fortalecer y tonificar los músculos tríceps, ubicados en la parte posterior de los brazos. Se realiza sosteniendo una pesa o mancuerna con ambas manos y extendiendo los brazos hacia arriba. Desde esta posición, se flexionan los codos y se baja el peso hacia la parte posterior de la cabeza, manteniendo los brazos cerca de las orejas. Luego, se vuelve a extender los brazos hasta volver a la posición inicial. Este ejercicio ayuda a desarrollar fuerza en los tríceps, mejorar la definición de los brazos y puede ser realizado en diferentes variaciones, como con polea o en posición tumbada. Es importante mantener una buena técnica y elegir un peso adecuado para evitar lesiones.",
+      "tituloSegundo": "Musculos trabajados en Extensión de tríceps",
+      "descripcionMusculos": ["Triceps (Vasto externo).","Triceps (Vasto larga).", "Triceps (Vasto interno)."],
+      "video": "https://www.youtube.com/embed/FspY_qJBXZc"
+    },
+    {
+      "id": "6",
+      "tituloEjercicio": "Halterofilia",
+      "tituloFoto": "Halterofilia",
+      "foto": "../../../assets/img/halterofilia.jpg",
+      "descripcion": "La Halterofilia o Levantamiento de Pesas Olímpico es un deporte que consiste en el levantamiento del máximo peso posible en una barra en cuyos extremos se fijan discos encauchetados con ciertos pesos, que son los que determinan el peso final que se levanta.",
+      "tituloSegundo": "Musculos trabajados en Halterofilia",
+      "descripcionMusculos": ["Cuadriceps.","Gluteos."],
+      "video": "https://www.youtube.com/embed/FdwPQF1dob4"
+    },
+    {
+      "id": "7",
+      "tituloEjercicio": "Bicep curl",
+      "tituloFoto": "Bicep curl",
+      "foto": "../../../assets/img/bicep.jpg",
+      "descripcion": "Los bicep curls son un ejercicio de entrenamiento de fuerza que se enfoca en los músculos bíceps en la parte frontal de los brazos. Se realiza sosteniendo una mancuerna o una barra con las manos en posición neutral o supina, y se flexionan los codos para levantar el peso hacia los hombros. Luego, se baja el peso de manera controlada hasta la posición inicial. Los bicep curls ayudan a fortalecer y desarrollar los músculos bíceps, mejorando la definición y el tamaño de los brazos. Es importante mantener una buena postura y técnica adecuada durante todo el ejercicio para evitar lesiones y maximizar los resultados.",
+      "tituloSegundo": "Musculos trabajados en Halterofilia",
+      "descripcionMusculos": ["Deltoides Frontales","Biceps Braquial."],
+      "video": "https://www.youtube.com/embed/ykJmrZ5v0Oo"
+    },
+    {
+      "id": "8",
+      "tituloEjercicio": "Pistol squat",
+      "tituloFoto": "Pistol squat",
+      "foto": "../../../assets/img/pistol.png",
+      "descripcion": "Los pistol squats son una variación desafiante de las sentadillas en las que se realiza el movimiento de flexión y extensión de una sola pierna. Con una pierna extendida al frente, se baja lentamente hasta que la otra pierna esté paralela al suelo y luego se vuelve a subir. Este ejercicio trabaja los músculos de las piernas, incluyendo los cuádriceps, glúteos e isquiotibiales, así como los músculos estabilizadores del núcleo. Los pistol squats requieren equilibrio, fuerza y flexibilidad, y son una excelente opción para desarrollar fuerza funcional en las piernas y mejorar el control corporal.",
+      "tituloSegundo": "Musculos trabajados en Halterofilia",
+      "descripcionMusculos": ["Deltoides Frontales","Biceps Braquial."],
+      "video": "https://www.youtube.com/embed/ykJmrZ5v0Oo"
+    }
+  ]

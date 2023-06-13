@@ -1,0 +1,65 @@
+<header>
+  <!-- Nav Principal -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+    <div class="container-fluid">
+      <!-- Logo que se muestra solo cuando es pantalla pequeña -->
+        <a routerLink = "" class = "navbar-brand d-lg-none">
+          <img class = "img-responsive text-center" src = "../assets/img/log.png" height = "80px">
+        </a>
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Colapse div -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class = "d-flex d-none d-lg-block ms-2">
+          <!-- Formulario que se muestra en pantalla grandes -->
+         
+        </div>
+        <!-- Logo Clicleable -->
+        <a routerLink = "" class = "d-flex d-none d-lg-block">
+          <img class = "img-responsive logo" src = "..\assets\img\log.png" height = "100px">
+        </a>
+        <!-- Botones responsivos y principales -->
+        
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item d-block d-lg-none ">
+            <a class="nav-link active text-custom1" aria-current="page" [routerLink] = "['/Rutinas']">Rutinas</a>
+          </li>
+          <li class="nav-item d-flex d-none d-lg-block ms-2 my-2 animated-line carta">
+            <a type="button" class="btn rounded-lg text-light" [routerLink] = "['/Rutinas']" >Rutinas</a>
+          </li>
+          <li class="nav-item d-flex d-none d-lg-block ms-2 my-2 animated-line carta">
+            <a type="button" class="btn rounded-lg text-light" [routerLink] = "['/Ejercicios']">Ejercicios</a>
+          </li>
+          <li class="nav-item d-flex d-none d-lg-block ms-2 my-2 animated-line carta">
+            <a type="button" class="btn rounded-lg text-light" [routerLink] = "['/Maquinas']" >Maquinas</a>
+          </li>
+          <li class="nav-item d-flex d-none d-lg-block ms-2 my-2 animated-line carta">
+            <a type="button" class="btn rounded-lg text-light" [routerLink] = "['/MiPerfil']" >Perfil</a>
+          </li>
+          <div class = "container-sm">
+            <li class="nav-item d-flex d-none d-lg-block ms-2 my-2 animated-line carta">
+              <a type="button" class="btn rounded-lg text-light" [routerLink] = "['/Login']" >Iniciar sesion</a>
+            </li>
+          </div>
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link active text-custom1" aria-current="page" [routerLink] = "['/Ejercicios']">Ejercicios</a>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link active text-custom1" aria-current="page" [routerLink] = "['/MiPerfil']">Perfil</a>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link active text-custom1" aria-current="page" [routerLink] = "['/Maquinas']">Maquinas</a>
+          </li>
+          <li class="nav-item d-block d-lg-none">
+            <a class="nav-link active text-custom1" aria-current="page" [routerLink] = "['/Login']">Login/Registro</a>
+          </li>
+        </ul>
+        <div>
+        </div>
+        <!-- Formulario para pantallas pequeñas -->
+      
+      </div>
+    </div>
+  </nav>
+</header>
