@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class = "container py-5">
+    <div class = "row">
+        <div class = "col">
+            <h1 class = "fw-bolder text-center">RUTINAS</h1>
+        </div>
+    </div>
+    <div class = "row">
+        <div class = "col">
+            <p class = "text-center fw-bolder">Te presentamos una seleccion de rutinas basicas con las que te podras ejercitar.</p>
+        </div>
+    </div>
+    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+    style="width: 100%; background-color: #00076d; height: 2px"/>
+</div>
+<div class = "container-fluid">
+    <div class = "row text-center">
+        <div class = "col-lg-4 col-md-6 col-sm-6 my-4" *ngFor="let aux of arrayRutinas">
+            <h4 class = "fw-bolder">{{aux.tituloRutina}}</h4>
+            <img class = "tamaño-fotos rounded" src="../../../assets/img/rutina.jpg">
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

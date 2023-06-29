@@ -1,0 +1,101 @@
+$colorNav:#01186d;
+$coloLetra1:#FFFFFF;
+.fotoprincipal{
+  background-size: 100%;
+  min-height: 50vh;
+  position: relative;
+  color: rgb(243, 243, 243);
+
+  background-position: 50% 70%;
+}
+
+.mpmargin{
+  margin-bottom: -500px;
+  color: #FFFFFF;
+}
+
+
+
+.color-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-shadow: 2px 2px 2px #26110A;
+}
+@media (min-width: 1200px) {
+  .responsive-font-example {
+    font-size: 4vw;
+  }
+}
+@media (max-width: 1199.98px) {
+  .responsive-font-example {
+    font-size: 6vw;
+  }
+}
+
+.foto-abajo{
+  height:280px;
+}
+
+@media (max-width: 330px) {
+  .foto-abajo{
+    height: 230px;
+  }
+}
+
+.card-height{
+  width: 25rem;
+  height: 20rem;
+}
+
+@media (max-width: 330px) {
+  .card-height{
+    width: 25rem;
+    height: 20rem;
+  }
+}
+
+.btn-fblanco{
+  background-color:$colorNav;
+  color:$coloLetra1;
+}
+
+.carta{
+  width: 25rem;
+  height: 900px;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 300ms;
+  
+}
+.carta:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+
+.bg-fotoprincipal{
+  width: 100%;
+  height: 600px;
+  background: #555555;
+  background: -webkit-linear-gradient(to right, hsl(222, 26%, 33%), #646464);  
+  background: linear-gradient(to right, hsla(0, 0%, 19%, 0.607), hsla(0, 0%, 44%, 0.598)),url(https://i.pinimg.com/736x/8b/3c/c0/8b3cc032c22d12564b4528a3742cca8f.jpg); 
+  
+}
+
+.bg-fotoprincipal h2{
+  display: flex;
+  justify-content: center;
+}
+
+.format{
+  min-height: 34.5vh;
+  width: 100%;
+  height: 34.5vh;
+  margin-right: 50px;
+  max-height: 34.5vh;
+}
+
