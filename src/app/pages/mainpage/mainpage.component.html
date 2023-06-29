@@ -18,7 +18,7 @@
   <div class="row my-4">
     <div class="card-deck row" style="width: auto; margin: auto auto;">
       <div class="col-xl-4 col-md-6 col-lg-5 col-sm-12 mb-2" *ngFor="let ejercicio of ejerciciopublico.slice(0,3)">
-        <div class="card card-height carta" [routerLink] = "['/Ejercicio',ejercicio.id]" style="cursor: pointer">
+        <div class="card card-height carta" [routerLink] = "['/Ejercicio',ejercicio.id]" style="cursor: pointer; margin: auto auto">
           <img src="{{ejercicio.foto}}" class="card-img-top card-height format" title="{{ejercicio.tituloFoto}}">
           <div class="card-body ">
             <h4 class="card-text">{{ejercicio.tituloEjercicio}}</h4>

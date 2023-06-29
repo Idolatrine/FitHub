@@ -1,3 +1,4 @@
+<app-header></app-header>
 <div class="fotoBack">
 	<div class="container full d-flex justify-content-center align-items-center">
 		<div class="row justify-content-center">
@@ -10,7 +11,7 @@
 		<form class="form"  [formGroup]="formularioLogin" (ngSubmit)="iniciarSesion()">
 			<div class="input-group">
 				<label for="username">Correo electronico</label>
-				<input type="email" name="username" id="username" placeholder="" formControlName="correo">
+				<input type="email" name="email" id="email" formControlName="email" ngClass="{'is-invalid':submitted && formularioLogin.controls.correo.errors}">
 				<div *ngIf="formularioLogin.get('correo')?.touched && formularioLogin.get('correo')?.errors?.['required']"
 									class="errorCualquiera">Este campo es obligatorio
 							</div>
@@ -24,7 +25,7 @@
 				<input type="password" name="password" id="password" placeholder="*******" formControlName="password">
 				<div *ngIf="formularioLogin.get('password')?.touched && formularioLogin.get('password')?.errors?.['required']"
 				class="errorCualquiera	">Este campo es obligatorio
-		</div>
+			</div>
 		<div *ngIf="formularioLogin.get('password')?.touched && formularioLogin.get('password')?.errors?.['pattern']"
 				class="errorCualquiera">La contraseña debe como minimo una letra, un numero y 6 caracteres
 		</div>
@@ -32,7 +33,7 @@
 					<a rel="noopener noreferrer" href="#">Olvidé mi contraseña</a>
 				</div>
 			</div>
-			<button class="sign">Iniciar sesión</button>
+			<button type="submit" class="sign">Iniciar sesión</button>
 		</form>
 		<div class="social-message">
 			<div class="line"></div>
